@@ -9,5 +9,4 @@ http.createServer(function(req, res){
     res.write('Endereco acessado: '+req.url+'<br>');
     res.write(data.myDateTime());
     res.end();
-    
 }).listen(8080);
